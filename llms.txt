@@ -6,4 +6,4 @@
 - `…/react-library` → reactLibraryConfiguration({ ignores? }): node config + eslint-plugin-react-hooks recommended.
 - `…/next-js-application` → nextJsApplicationConfiguration({ ignores? }): eslint-config-next core-web-vitals + typescript + prettier; also ignores .next/, test-results/, playwright-report/, next-env.d.ts. Requires eslint-config-next.
 - Use: `export default nodeConfiguration();` in eslint.config.mjs; extend with `[...nodeConfiguration(), { rules: {...} }]`.
-- Licence: Sharadox Open Source Licence 0.1.0
+- License: Sharadox Open Source License 0.1.0

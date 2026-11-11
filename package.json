@@ -1,6 +1,6 @@
 {
   "name": "@sharadox/es-lint-configuration-web-library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared ESLint flat configurations for Sharadox projects: Node, React libraries and Next.js applications, all Prettier-compatible.",
   "private": false,
   "license": "SEE LICENSE IN LICENCA.md",
@@ -29,7 +29,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "node": ">=24"
+    "node": ">=26"
   },
   "packageManager": "pnpm@10.34.9",
   "publishConfig": {
