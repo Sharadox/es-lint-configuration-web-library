@@ -1,6 +1,6 @@
 {
   "name": "@sharadox/es-lint-configuration-web-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared ESLint flat configurations for Sharadox projects: Node, React libraries and Next.js applications, all Prettier-compatible.",
   "private": false,
   "license": "SEE LICENSE IN LICENCA.md",
@@ -59,12 +59,10 @@
   },
   "homepage": "https://github.com/Sharadox/es-lint-configuration-web-library#readme",
   "devDependencies": {
-    "@eslint/js": "^9.39.5",
     "@types/node": "^24.19.2",
     "@vitest/coverage-v8": "^5.1.0",
     "eslint": "9.39.5",
     "eslint-config-next": "16.4.5",
-    "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "next": "16.4.5",
@@ -74,11 +72,13 @@
     "turbo": "^2.11.10",
     "typedoc": "^0.28.20",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.72.2",
     "vitest": "^5.1.0"
   },
   "dependencies": {
-    "eslint-plugin-react-hooks": "^7.1.1"
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "@eslint/js": "^9.39.5",
+    "typescript-eslint": "^8.72.2",
+    "eslint-config-prettier": "^10.1.8"
   },
   "peerDependencies": {
     "eslint": ">=9",
